@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Home\\unityProjects\\pongGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\ballMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\ballMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameOverScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\GameOverScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +11,24 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\GameData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameOverScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\GameOverScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\LeaderBoardManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\LeaderBoardManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\LeaderBoardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\LeaderBoardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\ballMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\ballMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\PaddleAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,63 +54,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LeaderBoardManager.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\LeaderBoardManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LeaderBoardManager.cs",
+              "ToolTip": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\LeaderBoardManager.cs",
+              "RelativeToolTip": "Assets\\Script\\LeaderBoardManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:32:20.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeaderBoardData.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\LeaderBoardData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LeaderBoardData.cs",
+              "ToolTip": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\LeaderBoardData.cs",
+              "RelativeToolTip": "Assets\\Script\\LeaderBoardData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:30:36.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameData.cs",
               "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameData.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameData.cs",
               "ToolTip": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameData.cs",
               "RelativeToolTip": "Assets\\Script\\GameData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T23:21:57.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameOverScript.cs",
               "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameOverScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameOverScript.cs",
               "ToolTip": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameOverScript.cs",
               "RelativeToolTip": "Assets\\Script\\GameOverScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T23:20:08.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
               "ToolTip": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T21:54:09.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MainMenu.cs",
               "ToolTip": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\MainMenu.cs",
               "RelativeToolTip": "Assets\\Script\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T22:19:59.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T22:19:59.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GameSettings.cs",
               "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\GameSettings.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameSettings.cs",
@@ -114,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "FPSCounter.cs",
               "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\FPSCounter.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\FPSCounter.cs",
@@ -126,33 +159,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ballMovement.cs",
               "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\ballMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ballMovement.cs",
               "ToolTip": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\ballMovement.cs",
               "RelativeToolTip": "Assets\\Script\\ballMovement.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T00:44:18.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T00:44:18.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PaddleAI.cs",
               "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\PaddleAI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PaddleAI.cs",
               "ToolTip": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\PaddleAI.cs",
               "RelativeToolTip": "Assets\\Script\\PaddleAI.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T21:24:23.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T21:24:23.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PaddlePlayer.cs",
               "DocumentMoniker": "C:\\Users\\Home\\unityProjects\\pongGame\\Assets\\Script\\PaddlePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PaddlePlayer.cs",

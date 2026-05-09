@@ -52,9 +52,12 @@ public class GameManager : MonoBehaviour
             GameData.playerScore = playerScore; //saves score in global data
             GameData.enemyScore = enemyScore;
 
-
-            LeaderboardManager.instance.AddScore( //Adiciona a pontuação ao usuario PLAYER
-                "PLAYER",
+            LeaderboardManager.instance.AddScore( //Adiciona a pontuação ao usuario
+                PlayerData.playerName,
+                playerScore - enemyScore
+            );
+            OnlineLeaderboard.instance.SubmitScore( //Adiciona ao banco de dados
+                PlayerData.playerName,
                 playerScore - enemyScore
             );
 

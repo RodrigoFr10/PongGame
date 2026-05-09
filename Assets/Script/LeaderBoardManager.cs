@@ -8,31 +8,66 @@ public class LeaderboardManager : MonoBehaviour
     string path;
     public LeaderboardData leaderboard = new LeaderboardData();
 
-    void Awake()
+    void Awake() //salva os dados de leaderboard em C:\Users\Home\AppData\LocalLow\DefaultCompany\pongGame, no arquivo json
     {
-        instance = this;
+       
+        if (instance == null)
+        {
+            instance = this;
 
-        path = Application.persistentDataPath + "/leaderboard.json";
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        
+
+        path = Application.persistentDataPath + "/leaderboard.json"; 
 
         LoadLeaderboard();
     }
 
     public void AddScore(string playerName, int score)
     {
-        LeaderboardEntry entry = new LeaderboardEntry();
+        // Prevent empty names
+        if (string.IsNullOrWhiteSpace(playerName))
+        {
+            playerName = "PLAYER";
+        }
 
-        entry.playerName = playerName;
-        entry.score = score;
+        // Try to find existing player
+        LeaderboardEntry existingEntry = leaderboard.entries.Find(
+            entry => entry.playerName == playerName
+        );
 
-        leaderboard.entries.Add(entry);
+        // If player already exists
+        if (existingEntry != null)
+        {
+            // Only replace if new score is higher
+            if (score > existingEntry.score)
+            {
+                existingEntry.score = score;
+            }
+        }
+        else
+        {
+            // Add new player
+            LeaderboardEntry newEntry = new LeaderboardEntry();
 
-        // sort highest score first
+            newEntry.playerName = playerName;
+            newEntry.score = score;
+
+            leaderboard.entries.Add(newEntry);
+        }
+
+        // Sort highest to lowest
         leaderboard.entries.Sort((a, b) => b.score.CompareTo(a.score));
 
-        // keep only top 10
+        // Keep only top 10
         if (leaderboard.entries.Count > 10)
         {
-            leaderboard.entries.RemoveAt(10);
+            leaderboard.entries.RemoveRange(10, leaderboard.entries.Count - 10);
         }
 
         SaveLeaderboard();
