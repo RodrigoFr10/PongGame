@@ -258,6 +258,6 @@ Protótipos e wireframes das telas principais do sistema, incluindo menu inicial
 
 ### 5. Diagrama de Arquitetura
 
-Representação geral da organização dos componentes do sistema, demonstrando a relação entre interface, lógica do jogo, inteligência artificial e possíveis integrações futuras com APIs externas.
+Representação geral da organização dos componentes do sistema, demonstrando aproximadamente seu funcionamento.
 
-![Arquitetura](images/arquitetura.png)
+![Arquitetura](https://canva.link/p2673z0gpvfxxhy)
