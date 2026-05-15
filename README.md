@@ -260,4 +260,4 @@ Protótipos e wireframes das telas principais do sistema, incluindo menu inicial
 
 Representação geral da organização dos componentes do sistema, demonstrando aproximadamente seu funcionamento.
 
-![Arquitetura](https://canva.link/p2673z0gpvfxxhy)
+![Arquitetura](images/imageArquitetura.png)
