@@ -1,0 +1,1 @@
+Coloque a pasta sitePong dentro de xampp/htdocs

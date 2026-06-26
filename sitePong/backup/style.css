@@ -1,0 +1,274 @@
+*{padding: 0; margin: 0; box-sizing: border-box; color:white;}
+
+:root {
+    --cor0: #555555;
+    --cor1: #3a3a3a;
+    --cor2: #292929;
+    --cor3: #1a1a1a;
+    --corHover: #0003b9;
+}
+
+/* :root {
+    --cor1: #ececec;
+    --cor2: #dadada;
+    --cor3: #bebebe;
+    --corHover: #0003b9;
+} */
+
+body{width: 100%;}
+
+.pageTop{
+    background-color: var(--cor2);
+    border: 1px solid black;
+    width: 100%;
+    padding: 20px;
+}
+
+.containerLogCad{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 25px;
+    background-color: var(--cor1);
+    border-radius: 20px;
+    display: flex;
+    gap:2%;
+    padding: 2%;
+}
+
+.titleLogin{
+    margin-bottom: 20px;
+}
+
+.containerLogCad input{
+    margin-bottom: 20px;
+}
+
+.formLoginCad{
+    background-color: var(--cor0);
+    border: 3px solid var(--cor3);
+    border-radius: 20px;
+    width:50%;
+    padding: 2%;
+}
+
+.submitLogCad{
+    background-color: var(--cor2);
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: 75%;
+}
+
+.submitLogCad:hover{
+    background-color: var(--corHover);
+    border: 3px solid #00014b;
+}
+
+.formCadastro{
+    background-color: var(--cor0);
+    border: 3px solid var(--cor3);
+    border-radius: 20px;
+    width:50%;
+    padding: 1%;
+}
+
+.input-group input{
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #acacac;
+}
+
+.threads{
+    background-color: var(--cor1);
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+}
+.threads h2{
+    background-color: var(--cor2);
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.userPost{
+    background-color: var(--cor2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.userArea{
+    width:20%;
+    text-align: center;
+    padding: 5px;
+    background-color: var(--cor3);
+    margin-bottom: 10px;
+}
+.userArea h3{
+    font-size: 25px;
+}
+
+.userTxtArea{
+    background-color: var(--cor1);
+    padding: 10px;
+}
+.userTxtArea p{
+    font-size: 20px;
+}
+
+.userArea img{
+    width:40%;
+    border-radius: 50%;
+}
+
+.likeDislikeArea{
+    /* background-color: red; */
+    margin-top: 10px;
+}
+
+.likeDislikeArea i{
+    font-size: 20px;
+    padding: 10px;
+    cursor:pointer;
+    transition: .5s;
+    text-align: center;
+}
+
+.likeDislikeArea i:hover{
+    background-color: var(--corHover);
+    font-size: 25px;
+}
+
+.likeDislikeArea i p{
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.commentsArea{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.commentsArea p{
+    font-size: 18px;
+}
+
+.commentsAreaInput{
+    background-color: var(--cor1);
+    margin-bottom: 10px;
+    padding: 1%;
+}
+
+.commentInput{
+    width: 95%;
+    height: 25px;
+    font-size: 20px;
+    color: var(--cor3);
+}
+
+.commentSubmit{
+    background-color: var(--cor2);
+    padding: 5px;
+    width: 3%;
+    border: 3px solid var(--cor3);
+    border-radius: 20%;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.commentSubmit:hover{
+    background-color: var(--corHover);
+    border: 3px solid #00014b;
+}
+
+.comment{
+    margin-bottom: 10px;
+    background-color:var(--cor1);
+    padding: 10px;
+    width: 95%;
+    transition: 1s;
+}
+.comment:hover{
+    background-color: #5c5c5c;
+}
+
+.likeDislikeInput{
+    background-color: var(--cor0);
+    border:none;
+}
+
+.commentsArea .likeDislikeArea i{
+    font-size: 16px;
+}
+
+.commentsArea .userTxtArea{
+    padding-bottom: 0;
+}
+
+.commentsArea .userArea{
+    width: 8%;
+    margin-bottom: 1px;
+}
+
+.commentsArea .userArea h3{
+    font-size: 14px;
+}
+
+.commentsArea h3{
+    font-size: 20px;
+}
+
+.scoreboardContainer{
+    position: fixed;
+    float:left;
+    width: 20%;
+    background-color: var(--cor3);
+    border:2px solid var(--cor0);
+    text-align: center;
+    padding: 1%;
+    margin-left:100%;
+    top:10%;
+    transition: 1s;
+}
+
+.scoreboardContainer *{
+    border:2px solid var(--cor0);
+    border-collapse: collapse;
+    background-color: #868686;   
+}
+
+.scoreboardContainer th{
+    background-color: #5f5f5f;
+    font-size: 20px;
+}
+
+.scoreboardBtn{
+    padding: 10px;
+    font-size: 25px;
+    background-color: var(--cor3);
+    border: 3px solid var(--cor0);
+    position: absolute;
+    cursor: pointer;
+    width: 20%;
+    left:-20%;
+    transition: .8s;
+}
+
+.scoreboardBtn:hover{
+    background-color: #00014b;
+}
+
+.scoreboard{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.show-scoreboard > .scoreboardContainer{
+    margin-left: 80%;
+}
+
+.show-scoreboard > .scoreboardContainer #scoreboardBtn{
+    rotate: 180deg;
+}

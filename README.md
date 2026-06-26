@@ -1,12 +1,12 @@
-# 🏓 Pong Unity
+# 🏓 Pong Evolutivo
 
 Projeto inspirado no clássico Pong desenvolvido na Unity utilizando C#.
 
 ---
 
-## 📖 Sobre o projeto
+## 📖 Resumo do Projeto
 
-Este projeto recria o clássico jogo Pong em uma versão moderna, com foco em aprendizado de desenvolvimento de jogos, sistemas de pontuação, inteligência artificial e futuramente ranking online.
+Este projeto recria o clássico jogo Pong em uma versão moderna, com foco em aprendizado de desenvolvimento de jogos, sistemas de pontuação, inteligência artificial e ranking online.
 
 O jogador controla uma plataforma enquanto enfrenta uma CPU que rebate a bola automaticamente.
 
@@ -26,13 +26,14 @@ O jogador controla uma plataforma enquanto enfrenta uma CPU que rebate a bola au
 - Física da bola
 - Tela de Game Over
 - Reinício de partida
+- Sistema de ranking
+- Login de usuários
 
 ---
 
 ## 🚧 Funcionalidades futuras
 
-- Sistema de ranking
-- Login de usuários
+
 - Multiplayer online
 - Loja de melhorias
 - Power-ups durante a partida
@@ -46,6 +47,12 @@ O jogador controla uma plataforma enquanto enfrenta uma CPU que rebate a bola au
 - C#
 - Git
 - GitHub
+- Visual Studio Code
+- HTML
+- CSS
+- JavaScript
+- PHP
+- Xampp
 
 ---
 
@@ -78,15 +85,20 @@ git clone https://github.com/SEU_USUARIO/pongGame.git
 
 ### Menu Inicial
 
-![Menu](images/menu.png)
+![Menu](images/menuPongUnity.png)
 
-### Gameplay
+### Tela de Configurações
+
+![Settings](images/settings.png)
+
+
+### Gameplay 2, efeitos visuais da pontuação
 
 ![Gameplay](images/gameplay2.png)
 
 ### Game Over
 
-![GameOver](images/gameover.png)
+![GameOver](images/gameOver.png)
 
 ---
 
@@ -97,27 +109,32 @@ Rodrigo Franco
 GitHub:
 https://github.com/RodrigoFr10
 
+
+## Pong Evolutivo - A Reconstrução de Clássico 
+
 ## 📖 Resumo do Projeto
 
-Jogos digitais competitivos e casuais continuam sendo amplamente utilizados como forma de entretenimento e interação entre usuários em diferentes plataformas. A ausência de mecânicas modernas, sistemas de progressão e funcionalidades online em versões clássicas pode limitar o engajamento e a experiência dos jogadores atuais. 
+Jogos digitais competitivos e casuais continuam sendo amplamente utilizados como forma de entretenimento e interação entre usuários em diferentes plataformas. Entretanto, versões clássicas como o Pong não possuem, em sua forma original, recursos modernos de progressão, interação social e funcionalidades online, o que pode limitar o engajamento dos jogadores atuais.
 
-Este projeto propõe o desenvolvimento de uma releitura do jogo Pong utilizando a Unity, incorporando sistemas como inteligência artificial, pontuação, ranking e possíveis funcionalidades multiplayer. Como consequência, espera-se criar uma aplicação capaz de unir a simplicidade de um jogo clássico com recursos contemporâneos de interação e competitividade digital.
+Este projeto propõe o desenvolvimento de uma releitura do jogo Pong utilizando a Unity, integrada a um website responsável por funcionalidades complementares. Entre os recursos implementados ou planejados estão inteligência artificial, sistema de pontuação, ranking de jogadores, rede social para compartilhamento de conteúdos e possíveis funcionalidades multiplayer. Dessa forma, busca-se unir a simplicidade de um jogo clássico com recursos contemporâneos de interação, competitividade e gerenciamento da comunidade de jogadores.
+
 
 # ❗ Definição do Problema
 
-Jogos clássicos como Pong marcaram a história da indústria dos jogos digitais devido à simplicidade de suas mecânicas e facilidade de acesso por diferentes públicos. Entretanto, muitas versões atuais desses jogos mantêm apenas a proposta original, sem incorporar funcionalidades modernas capazes de aumentar a competitividade, a progressão e o engajamento dos jogadores, o que pode não prender o interesse de audiências modernas.
+Jogos clássicos como Pong marcaram a história da indústria dos jogos digitais devido à simplicidade de suas mecânicas e facilidade de acesso por diferentes públicos. Entretanto, muitas versões atuais desses jogos preservam apenas sua proposta original, sem incorporar funcionalidades modernas capazes de aumentar a competitividade, a progressão e a interação entre jogadores. Como consequência, a experiência oferecida pode não atender às expectativas do público atual, reduzindo o engajamento e a retenção dos usuários.
 
-O desenvolvimento de jogos digitais também envolve desafios técnicos relevantes, como implementação de inteligência artificial, sistemas de pontuação, gerenciamento de estados de jogo, interfaces interativas e persistência de dados. Esses elementos são fundamentais para aproximar projetos acadêmicos das práticas utilizadas na indústria de desenvolvimento de jogos.
+Além disso, o desenvolvimento de jogos digitais modernos envolve desafios técnicos relevantes, como a implementação de inteligência artificial, gerenciamento de estados de jogo, persistência de dados, integração entre diferentes aplicações e interfaces voltadas à interação dos usuários. Esses elementos aproximam projetos acadêmicos das práticas utilizadas na indústria de desenvolvimento de software e jogos digitais.
 
-Durante a etapa de discovery, foi identificado que diversos jogos casuais modernos utilizam sistemas de ranking, progressão e feedback visual para ampliar o tempo de retenção e a experiência dos usuários. Também foi observado que jogos clássicos continuam sendo amplamente utilizados como base para estudos e prototipagem no desenvolvimento de jogos digitais, devido à simplicidade estrutural e ao potencial de expansão de funcionalidades.
+Durante a etapa de discovery, foi identificado que diversos jogos casuais modernos utilizam sistemas de ranking, progressão, feedback visual e funcionalidades online para ampliar a competitividade e aumentar o tempo de retenção dos jogadores. Também foi observado que jogos clássicos continuam sendo amplamente utilizados como base para estudos e prototipagem, devido à simplicidade de sua estrutura e ao potencial para expansão de funcionalidades.
 
-Nesse contexto, o projeto propõe o desenvolvimento de uma releitura moderna do jogo Pong utilizando a engine Unity, incorporando recursos adicionais como inteligência artificial para oponente, sistema de pontuação, ranking local e possibilidades futuras de expansão para multiplayer e sistemas online. Dessa forma, busca-se unir conceitos clássicos de gameplay com funcionalidades contemporâneas presentes em jogos competitivos atuais.
+Nesse contexto, o projeto propõe o desenvolvimento de uma releitura do jogo Pong utilizando a Unity, integrada a um website responsável pelas funcionalidades online e pelo gerenciamento da comunidade de jogadores. O sistema inclui recursos como inteligência artificial para oponente, sistema de pontuação, ranking persistente e interação entre jogadores por meio da plataforma web. Dessa forma, busca-se combinar a jogabilidade clássica do Pong com recursos modernos de competição, persistência de dados e interação social.
+
 
 # 🎯 Objetivos
 
 ## Objetivo Geral
 
-Desenvolver uma releitura moderna do jogo Pong utilizando a engine Unity, incorporando mecânicas clássicas de gameplay com funcionalidades contemporâneas, como inteligência artificial, sistema de pontuação e ranking, proporcionando uma experiência interativa, competitiva e acessível aos usuários.
+Desenvolver uma releitura moderna do jogo Pong utilizando a engine Unity, integrada a um website e a um backend para oferecer funcionalidades online. O projeto combina as mecânicas clássicas de gameplay com recursos contemporâneos, como inteligência artificial, sistema de pontuação, ranking persistente e uma plataforma social para interação entre jogadores, proporcionando uma experiência competitiva, interativa e acessível.
 
 ---
 
@@ -127,11 +144,11 @@ Desenvolver uma releitura moderna do jogo Pong utilizando a engine Unity, incorp
 - Desenvolver um sistema de pontuação funcional durante as partidas.
 - Criar uma inteligência artificial capaz de controlar o oponente.
 - Implementar telas de interface, como menu inicial e tela de Game Over.
-- Desenvolver um sistema de ranking local para armazenamento de pontuações.
-- Estruturar o projeto de forma organizada e escalável para futuras expansões.
-- Possibilitar futuras implementações, como multiplayer online, sistema de login e loja de melhorias.
+- Desenvolver um sistema de ranking para armazenamento de pontuações.
 - Aplicar conceitos de desenvolvimento de jogos digitais utilizando C# e Unity.
 - Proporcionar uma experiência simples e intuitiva para jogadores casuais e competitivos.
+- Implementar um sistema de autenticação compartilhado entre o jogo e o website.
+- Desenvolver um website com funcionalidades de rede social permitindo a publicação de postagens, comentários e reações.
 
 
 # 🛠️ Stack Tecnológico
@@ -183,29 +200,74 @@ https://github.com/
 
 ---
 
-## Django (Possível implementação futura)
+## HTML 5
+O HTML5 será utilizado para estruturar as páginas do website, definindo elementos como formulários, menus, postagens, comentários e demais componentes da interface. A linguagem é o padrão para construção de páginas web e oferece recursos semânticos que facilitam a organização do conteúdo, a acessibilidade e a compatibilidade entre navegadores.
 
-O framework Django poderá ser utilizado futuramente para desenvolvimento de funcionalidades online, como sistema de login, ranking global e armazenamento de dados dos jogadores.
+A escolha do HTML5 deve-se à sua simplicidade, ampla compatibilidade com navegadores modernos e integração com CSS e JavaScript para o desenvolvimento de interfaces web.
 
-O Django é um framework web baseado em Python que oferece recursos integrados para autenticação, gerenciamento de banco de dados e desenvolvimento rápido de aplicações web seguras.
+Documentação oficial:
+https://developer.mozilla.org/docs/Web/HTML
+---
 
-Sua possível adoção no projeto ocorre devido à robustez do framework, facilidade de integração com APIs e suporte a sistemas escaláveis.
+## CSS3
 
-Documentação oficial:  
-https://www.djangoproject.com/
+O CSS3 será utilizado para estilizar a interface do website, definindo cores, tipografia, espaçamentos, posicionamento dos elementos e responsividade. A tecnologia permite separar a apresentação da estrutura da página, facilitando a manutenção e evolução do sistema.
 
+A escolha do CSS3 deve-se à sua flexibilidade para criação de interfaces modernas, responsivas e compatíveis com diferentes dispositivos e navegadores.
+
+Documentação oficial:
+https://developer.mozilla.org/docs/Web/CSS
+---
+
+## JavaScript
+O JavaScript será utilizado para adicionar interatividade ao website, permitindo a manipulação dinâmica dos elementos da página, validação de formulários, comunicação assíncrona com o servidor e atualização de conteúdos sem necessidade de recarregar completamente a página.
+
+A escolha do JavaScript deve-se à sua ampla utilização no desenvolvimento web, integração nativa com navegadores e facilidade de comunicação com aplicações backend.
+
+Documentação oficial:
+https://developer.mozilla.org/docs/Web/JavaScript
+---
+
+## PHP
+
+O PHP será utilizado como linguagem de desenvolvimento do backend do website, sendo responsável pelo processamento das requisições, autenticação de usuários, gerenciamento de sessões, comunicação com o banco de dados e implementação das regras de negócio da aplicação.
+
+A escolha do PHP deve-se à sua simplicidade de desenvolvimento, ampla documentação, boa integração com servidores web e bancos de dados relacionais, além de ser amplamente utilizado em aplicações web dinâmicas.
+
+Documentação oficial:
+https://www.php.net/
+---
+
+## MySql
+O MySQL será utilizado como sistema de gerenciamento de banco de dados relacional, responsável pelo armazenamento das informações dos usuários, postagens, comentários, reações, pontuações e ranking do sistema.
+
+A escolha do MySQL deve-se ao seu desempenho, confiabilidade, facilidade de integração com PHP, ampla documentação e grande utilização em aplicações web.
+
+Documentação oficial:
+https://www.mysql.com/
+---
+
+## XAMPP 
+O XAMPP será utilizado como ambiente de desenvolvimento local, fornecendo os serviços necessários para execução da aplicação web, incluindo o servidor Apache, o interpretador PHP e o banco de dados MySQL.
+
+A escolha do XAMPP deve-se à facilidade de instalação e configuração, permitindo reunir em um único ambiente todas as ferramentas necessárias para o desenvolvimento e testes da aplicação.
+
+Documentação oficial:
+https://www.apachefriends.org/
 
 # 🧩 Descrição da Solução
 
-A solução proposta consiste no desenvolvimento de uma releitura moderna do jogo Pong utilizando a engine Unity e a linguagem C#. O sistema será estruturado como um jogo digital 2D no qual o jogador controlará uma plataforma com o objetivo de rebater uma bola contra um oponente controlado por inteligência artificial. A aplicação contará com elementos clássicos do jogo original aliados a funcionalidades modernas voltadas à experiência do usuário e à competitividade.
+A solução proposta consiste no desenvolvimento de uma releitura moderna do jogo Pong utilizando a engine Unity, integrada a um website desenvolvido com HTML, CSS, JavaScript e PHP, além de um banco de dados MySQL para armazenamento persistente das informações dos usuários e das partidas.
 
-O jogo será organizado em diferentes cenas e estados de execução, incluindo menu inicial, partida principal e tela de Game Over. Durante a partida, o sistema será responsável por controlar a movimentação das plataformas, a física da bola, o cálculo de pontuação e a verificação das condições de vitória e derrota. A inteligência artificial será implementada para controlar automaticamente a plataforma adversária, permitindo partidas contra a CPU sem necessidade de um segundo jogador humano.
+Enquanto o Pong clássico limita a experiência ao momento da partida, sem registrar pontuações ou permitir interação entre jogadores, este projeto amplia essa proposta ao oferecer um ecossistema integrado. As pontuações passam a ser armazenadas em um ranking persistente, permitindo que os jogadores acompanhem seu desempenho ao longo do tempo e o comparem com outros usuários. Dessa forma, conquistas que antes eram perdidas ao encerrar o jogo tornam-se permanentes e compartilháveis.
 
-A interface gráfica será desenvolvida de forma simples e intuitiva, permitindo fácil navegação entre os menus e rápida compreensão das mecânicas do jogo. Além disso, o sistema será estruturado de maneira modular, facilitando futuras expansões e manutenção do projeto. Entre as possíveis implementações futuras destacam-se sistema de ranking global, autenticação de usuários, multiplayer online e loja de melhorias dentro do jogo.
+O jogo mantém as mecânicas clássicas do Pong, com controle das plataformas, movimentação física da bola, sistema de pontuação e um oponente controlado por inteligência artificial. A interface foi desenvolvida para oferecer uma experiência simples e intuitiva, preservando a acessibilidade do jogo original enquanto adiciona novos recursos.
 
-Para armazenamento e gerenciamento de futuras funcionalidades online, existe a possibilidade de integração com uma API desenvolvida em Django. Essa integração permitiria registrar pontuações, autenticar jogadores e sincronizar rankings globais entre diferentes usuários. O uso de APIs também possibilitaria maior escalabilidade e organização da aplicação caso o projeto evolua para versões mais completas.
+O website complementa a experiência do jogo ao fornecer autenticação de usuários, compartilhando o mesmo sistema de login utilizado na aplicação desenvolvida em Unity. Além do ranking, a plataforma oferece funcionalidades de rede social, permitindo que os jogadores publiquem postagens, comentem conteúdos e expressem suas reações, incentivando a interação da comunidade.
 
-O projeto utilizará Git e GitHub para controle de versão e gerenciamento do código-fonte, permitindo acompanhamento das alterações realizadas durante o desenvolvimento. Dessa forma, busca-se construir uma aplicação organizada, escalável e alinhada às práticas utilizadas no desenvolvimento moderno de jogos digitais.
+A comunicação entre o jogo, o website e o banco de dados permite centralizar as informações dos usuários e manter a consistência dos dados entre as diferentes aplicações. O projeto também utiliza Git e GitHub para controle de versão e gerenciamento colaborativo do código-fonte, seguindo práticas adotadas no desenvolvimento moderno de software.
+
+Dessa forma, a solução preserva a simplicidade e a jogabilidade que tornaram o Pong um clássico, ao mesmo tempo em que incorpora recursos atuais de persistência de dados, competitividade e interação social, proporcionando uma experiência mais completa aos jogadores.
 
 Telas do sistema vão nesta seção
 
