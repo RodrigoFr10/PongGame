@@ -215,6 +215,7 @@ A escolha do HTML5 deve-se à sua simplicidade, ampla compatibilidade com navega
 
 Documentação oficial:
 https://developer.mozilla.org/docs/Web/HTML
+
 ---
 
 ## CSS3
@@ -225,6 +226,7 @@ A escolha do CSS3 deve-se à sua flexibilidade para criação de interfaces mode
 
 Documentação oficial:
 https://developer.mozilla.org/docs/Web/CSS
+
 ---
 
 ## JavaScript
@@ -234,6 +236,7 @@ A escolha do JavaScript deve-se à sua ampla utilização no desenvolvimento web
 
 Documentação oficial:
 https://developer.mozilla.org/docs/Web/JavaScript
+
 ---
 
 ## PHP
@@ -244,6 +247,7 @@ A escolha do PHP deve-se à sua simplicidade de desenvolvimento, ampla documenta
 
 Documentação oficial:
 https://www.php.net/
+
 ---
 
 ## MySql
@@ -253,6 +257,7 @@ A escolha do MySQL deve-se ao seu desempenho, confiabilidade, facilidade de inte
 
 Documentação oficial:
 https://www.mysql.com/
+
 ---
 
 ## XAMPP 
