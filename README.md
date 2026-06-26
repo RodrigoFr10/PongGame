@@ -89,10 +89,14 @@ git clone https://github.com/SEU_USUARIO/pongGame.git
 
 ### Tela de Configurações
 
+Aqui, pode-se definir a taxa de atualização da tela e o volume da música/SFX
+
 ![Settings](images/settings.png)
 
 
 ### Gameplay, efeitos visuais da pontuação
+
+Nesse momento a plataforma do jogador(a de baixo) pontuou. Isso a fez ficar um pouco maior e piscar na cor verde. A plataforma inimiga piscou vermelho e ficou um pouco menor
 
 ![Gameplay](images/gameplay2.png)
 
