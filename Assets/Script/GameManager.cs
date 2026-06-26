@@ -16,9 +16,14 @@ public class GameManager : MonoBehaviour
     public Transform platformPlayer;
     public Transform platformEnemy;
 
+    private AudioSource audioSource;
+    public AudioClip scoreSound;
+    public AudioClip damageSound;
+
     void Start()
     {
         UpdateScoreText();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void PlayerScores()
@@ -31,6 +36,8 @@ public class GameManager : MonoBehaviour
         //platformPlayer.transform.localScale += new Vector3(.5f, .1f, 0f);
         platformPlayer.GetComponent<PaddlePlayer>().increaseSize();
         platformEnemy.GetComponent<PaddleAI>().decreaseSize();
+        audioSource.PlayOneShot(scoreSound, GameSettings.sfxVolume);
+
         if (platformEnemy.transform.localScale.x < .4f)
         {
             platformEnemy.GetComponent<PaddleAI>().nextLvl();
@@ -46,6 +53,7 @@ public class GameManager : MonoBehaviour
         ResetBall();
         platformEnemy.GetComponent<PaddleAI>().increaseSize();
         platformPlayer.GetComponent<PaddlePlayer>().decreaseSize();
+        audioSource.PlayOneShot(damageSound, GameSettings.sfxVolume);
 
         if (platformPlayer.transform.localScale.x < 0.4f)
         {
@@ -56,10 +64,13 @@ public class GameManager : MonoBehaviour
                 PlayerData.playerName,
                 playerScore - enemyScore
             );
-            OnlineLeaderboard.instance.SubmitScore( //Adiciona ao banco de dados
-                PlayerData.playerName,
-                playerScore - enemyScore
-            );
+            if (PlayerData.isLoggedIn)
+            {
+                OnlineLeaderboard.instance.SubmitScore(
+                    PlayerData.playerName,
+                    playerScore - enemyScore
+                );
+            }
 
             SceneManager.LoadScene("GameOverScene"); // triggers game over scene
         }

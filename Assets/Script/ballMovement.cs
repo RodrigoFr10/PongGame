@@ -4,14 +4,19 @@ public class BallMovement : MonoBehaviour
 {
     public float speed;
     public float speedIncrease = 1f;
+    public AudioClip paddleHitSound;
+    public AudioClip wallHitSound;
 
     public float startSpeed;
     private Rigidbody2D rb;
+    private AudioSource audioSource;
+    
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
+        audioSource = GetComponent<AudioSource>();
         startSpeed = speed; // store the default speed
 
         Vector2 direction = new Vector2(1, 1).normalized;
@@ -33,6 +38,16 @@ public class BallMovement : MonoBehaviour
         {
             speed += speedIncrease;
             rb.linearVelocity = rb.linearVelocity.normalized * speed;
+            audioSource.PlayOneShot(paddleHitSound, GameSettings.sfxVolume);
+        }
+        else if (collision.gameObject.name == "paddle_up")
+        {
+            audioSource.PlayOneShot(paddleHitSound, GameSettings.sfxVolume);
+
+        }
+        else
+        {
+            audioSource.PlayOneShot(wallHitSound,GameSettings.sfxVolume);
         }
     }
     void Update()

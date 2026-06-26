@@ -9,6 +9,7 @@ public class PaddleAI : MonoBehaviour
     
     public float leftLimit = -6f;
     public float rightLimit = 6f;
+    public float maxWidth = 11.2f;
 
     SpriteRenderer sr;
     public float colorReturnSpeed = 1f;
@@ -37,6 +38,11 @@ public class PaddleAI : MonoBehaviour
     }
     public void increaseSize()
     {
+        if (transform.localScale.x >= maxWidth) //se o tamanho do inimigo for >= ao limite, não cresce
+        {
+            return;
+        }
+
         transform.localScale += new Vector3(startWid * 0.05f, startHei * 0.05f, 0f);
         leftLimit += startWid * 0.025f;
         rightLimit = -leftLimit;

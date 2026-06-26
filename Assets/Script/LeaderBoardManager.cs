@@ -33,8 +33,14 @@ public class LeaderboardManager : MonoBehaviour
         // Prevent empty names
         if (string.IsNullOrWhiteSpace(playerName))
         {
-            playerName = "PLAYER";
+            playerName = "Player";
+            return;
         }
+
+        //if (!PlayerData.isLoggedIn)
+        //{
+        //    return;
+        //}
 
         // Try to find existing player
         LeaderboardEntry existingEntry = leaderboard.entries.Find(

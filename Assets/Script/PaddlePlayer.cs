@@ -9,6 +9,7 @@ public class PaddlePlayer : MonoBehaviour
     // horizontal limits
     public float leftLimit = -6.4f;
     public float rightLimit = 6.4f;
+    public float maxWidth = 11.2f;
 
     SpriteRenderer sr;
     public float colorReturnSpeed = 1f;
@@ -43,6 +44,11 @@ public class PaddlePlayer : MonoBehaviour
     }
     public void increaseSize()
     {
+        if (transform.localScale.x >= maxWidth) //se o tamanho do jogador for >= ao limite, não cresce
+        {
+            return;
+        }
+
         transform.localScale += new Vector3(startWid*0.05f, startHei*0.05f, 0f);
         leftLimit += startWid * 0.025f;
         rightLimit = -leftLimit;

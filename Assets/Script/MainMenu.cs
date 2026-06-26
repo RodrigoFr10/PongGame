@@ -8,19 +8,24 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
 
+        if (!PlayerData.isLoggedIn)
+        {
+            Debug.Log("StartGame sees name: " + PlayerData.playerName);
+            if (nameInput.text != "") //Se o campo nome estiver vazio, padronize o nome do jogador para PLAYER
+            {
+                //PlayerData.playerName = nameInput.text; //salva o nome escrito no campo
+                PlayerData.playerName = nameInput.text.Substring( //salva o nome escrito no campo com limite de 12 letras
+                    0,
+                    Mathf.Min(nameInput.text.Length, 12)
+                );
+            }
+            else
+            {
+                PlayerData.playerName = "PLAYER";
+            }
+        }
+
         
-        if (nameInput.text != "") //Se o campo nome estiver vazio, padronize o nome do jogador para PLAYER
-        {
-            //PlayerData.playerName = nameInput.text; //salva o nome escrito no campo
-            PlayerData.playerName = nameInput.text.Substring( //salva o nome escrito no campo com limite de 12 letras
-                0,
-                Mathf.Min(nameInput.text.Length, 12)
-            );
-        }
-        else
-        {
-            PlayerData.playerName = "PLAYER";
-        }
 
         SceneManager.LoadScene("jogoScene"); // Botao start. Carregar cena do jogo
         
@@ -28,6 +33,23 @@ public class MainMenu : MonoBehaviour
 
     public void OpenSettings()
     {
-        Debug.Log("Settings clicked (not implemented yet)");
+        //Debug.Log("Settings clicked (not implemented yet)");
+        SceneManager.LoadScene("ConfigScene");
+    }
+
+    public void ExitGame()
+    {
+        Debug.Log("Exiting game...");
+
+        Application.Quit();
+
+        //if (UNITY_EDITOR)
+        //{
+        //    UnityEditor.EditorApplication.isPlaying = false;
+        //}
+        //else
+        //{
+        //    Application.Quit();
+        //}
     }
 }
