@@ -92,7 +92,7 @@ git clone https://github.com/SEU_USUARIO/pongGame.git
 ![Settings](images/settings.png)
 
 
-### Gameplay 2, efeitos visuais da pontuação
+### Gameplay, efeitos visuais da pontuação
 
 ![Gameplay](images/gameplay2.png)
 
@@ -118,7 +118,7 @@ GitHub:
 https://github.com/RodrigoFr10
 
 
-## Pong Evolutivo - A Reconstrução de Clássico 
+## Pong Evolutivo - A Reconstrução de um Clássico 
 
 ## 📖 Resumo do Projeto
 
@@ -280,6 +280,91 @@ Dessa forma, a solução preserva a simplicidade e a jogabilidade que tornaram o
 Telas do sistema vão nesta seção
 
 
+# 🎮 Regras do Jogo
+
+## Objetivo da Partida
+
+O jogador controla a plataforma localizada na parte inferior da tela, enquanto o oponente é controlado por uma inteligência artificial posicionada na parte superior. O objetivo é impedir que a bola ultrapasse sua plataforma e marcar pontos contra o adversário para avançar de nível.
+
+---
+
+## Sistema de Pontuação
+
+* A pontuação é exibida em tempo real durante toda a partida.
+* Cada vez que um jogador marca um ponto, sua pontuação é incrementada em **1**.
+* A pontuação final registrada no ranking é calculada pela fórmula:
+
+**Pontuação Final = Pontuação do Jogador − Pontuação do Inimigo**
+
+Esse cálculo recompensa vitórias mais dominantes e reduz a pontuação obtida em partidas muito equilibradas ou derrotas.
+
+---
+
+## Crescimento das Plataformas
+
+Sempre que um jogador marca um ponto:
+
+* A plataforma do jogador que pontuou aumenta de tamanho.
+* A plataforma do adversário diminui de tamanho.
+
+Esse sistema altera dinamicamente a dificuldade da partida, recompensando o jogador que estiver em vantagem.
+
+Para manter o equilíbrio do jogo:
+
+* Nenhuma plataforma pode ultrapassar metade da altura da tela.
+* Se a plataforma do jogador ficar menor que **0.4**, a partida termina e a tela de Game Over é exibida.
+* Se a plataforma da inteligência artificial ficar menor que **0.4**, o jogador vence a fase e avança para o próximo nível.
+
+---
+
+## Progressão de Dificuldade
+
+A cada nível concluído:
+
+* A velocidade de movimentação da plataforma controlada pela inteligência artificial aumenta.
+
+Isso torna as partidas progressivamente mais desafiadoras conforme o jogador avança.
+
+---
+
+## Velocidade da Bola
+
+A velocidade da bola é ajustada dinamicamente durante a partida:
+
+* Cada vez que a bola rebate na plataforma do jogador, sua velocidade aumenta.
+* Sempre que o oponente marca um ponto, a velocidade da bola é reduzida levemente.
+
+Essa mecânica busca equilibrar a dificuldade, evitando que a bola permaneça rápida demais após longas sequências de rebatidas.
+
+---
+
+## Recorde Pessoal
+
+Ao final da partida, a pontuação final é comparada ao recorde pessoal do jogador.
+
+Caso a nova pontuação seja superior à anteriormente registrada, ela passa a ser o novo recorde pessoal e é armazenada no banco de dados para atualização do ranking.
+
+
+### Em resumo:
+- O jogador controla a plataforma de baixo.
+- A IA controla a plataforma de cima.
+- O objetivo é impedir que a bola passe pela sua plataforma enquanto tenta marcar pontos no adversário.
+- Sistema de pontuação
+- A pontuação é exibida em tempo real.
+- Cada pontuação aumenta em 1 a pontuação do jogador que marcou.
+- A plataforma que pontua cresce e sua inimiga diminui.
+- Feedback visual
+- O jogador que pontua fica verde e cresce um pouco e seu inimigo fica vermelho e diminui.
+- Nenhuma plataforma pode ficar maior que metade do tamanho da tela, impedindo 
+- Se a plataforma do jogador ficar menor que 0.4f, ele é levado pra tela de game over
+- Se a plataforma inimiga ficar menor que 0.4f, o jogador passa de nível
+- A cada nível que o jogador passa, a plataforma inimiga fica mais rápida.
+- Cada vez que a bola rebate no jogador, ela fica mais rápida.
+- Cada vez que o inimigo pontua a bola perde um pouco de velocidade, facilitando e equilibrando o jogo caso a bola estiver rápida demais para o jogador rebater
+- A pontuação final é a pontuação do jogador menos a pontuação do inimigo
+- Se a pontuação do jogador for maior que sua pontuação anterior, ela sobscreve e se torna o novo recorde pessoal
+
+
 
 # 🏗️ Arquitetura
 
@@ -289,40 +374,6 @@ O repositório do projeto contém os artefatos produzidos durante o processo de 
 
 Repositório do projeto:  
 https://github.com/RodrigoFr10/pongGame
-
----
-
-## 📁 Artefatos Desenvolvidos
-
-### 1. MVP Canvas
-
-Documento utilizado para definição inicial da proposta do projeto, funcionalidades principais e público-alvo da aplicação.
-
-![MVP Canvas](images/mvp-canvas.png)
-
----
-
-### 2. Benchmarking
-
-Tabela comparativa entre projetos e jogos similares, analisando funcionalidades, diferenciais e possíveis melhorias aplicáveis ao projeto.
-
-![Benchmarking](images/benchmarking.png)
-
----
-
-### 3. Histórias de Usuário e Backlog
-
-Listagem das funcionalidades previstas para o sistema, organizadas em requisitos e tarefas de desenvolvimento.
-
-![Backlog](images/backlog.png)
-
----
-
-### 4. Protótipos de Interface
-
-Protótipos e wireframes das telas principais do sistema, incluindo menu inicial, gameplay e tela de Game Over.
-
-![Wireframe](images/wireframe.png)
 
 ---
 
